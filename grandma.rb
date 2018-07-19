@@ -17,4 +17,5 @@ def speak_to_grandma(phrase)
     nil 
   else
     return "HUH?! SPEAK UP, SONNY!"
+  end
 end
