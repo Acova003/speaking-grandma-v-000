@@ -11,8 +11,9 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-
+require pry
 def speak_to_grandma(phrase)
+  bindind.pry
   if phrase.upcase? == false 
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == "I LOVE YOU GRANDMA!"
